@@ -28,11 +28,11 @@ header {
   padding: 30px;
 }
 
-header .profile-pic {
-  width: 120px;
-  height: 120px;
+#profile-pic {
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 header h1 {
@@ -72,11 +72,15 @@ article h2 {
   margin: 10px;
 }
 
-.post-img.right {
+#article-1-img {
+  width: 100px;
+  border-radius: 20%;
   float: right;
 }
 
-.post-img.left {
+#article-2-img{
+  width: 100px;
+  border-radius: 20%;
   float: left;
 }
 
